@@ -146,6 +146,7 @@ public class Normalizer {
             "been\n" +
             "was\n" +
             "were";
+    //TODO improve stop-words list
 
 //    @Test
 //    public void test() {
