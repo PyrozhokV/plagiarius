@@ -1,5 +1,8 @@
-import org.apache.tools.ant.util.FileUtils;
+import core.Data;
+import core.Normalizer;
 import org.testng.reporters.Files;
+import utils.FileMan;
+import utils.StringMan;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,10 +14,9 @@ public class Test {
 
     @org.testng.annotations.Test
     public void test() throws IOException {
-        String filepath = "src/test/resources/text.txt";
-        String text = Files.readFile(new File(filepath));
+        String text = FileMan.readTextFromFile(Data.textFilePath);
         Normalizer normalizer = new Normalizer(text);
         String[] words = normalizer.normalize();
-        System.out.println();
+        FileMan.writeToFile(Data.testResultsFilePath, words);
     }
 }
