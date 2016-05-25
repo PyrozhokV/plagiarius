@@ -11,20 +11,14 @@ import java.util.List;
  */
 public class Normalizer {
 
-    private String originalText;
-    private String[] stopWords;
+    private String[] stopWords = FileMan.readTextFromFile(Data.stopWordsFilePath).split("\\s");;
 
-    public Normalizer(String text) {
-        this.originalText = text;
-        stopWords = FileMan.readTextFromFile(Data.stopWordsFilePath).split("\\s");
+    public String[] getStopWords() {
+        return stopWords;
     }
 
-    public String getOriginalText() {
-        return this.originalText;
-    }
-
-    public String[] normalize() {
-        List<String> words = Arrays.asList(this.originalText.replaceAll("[^a-zA-Z ]", "").toLowerCase().split("\\s+"));
+    public String[] normalize(String originalText) {
+        List<String> words = Arrays.asList(originalText.replaceAll("[^a-zA-Z ]", "").toLowerCase().split("\\s+"));
         List<String> stopWordsList = Arrays.asList(stopWords);
         List<String> wordsAfterCleaning = new ArrayList<String>();
         for (String word : words) {

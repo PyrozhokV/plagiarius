@@ -1,3 +1,5 @@
+package trash;
+
 import edu.smu.tspell.wordnet.NounSynset;
 import edu.smu.tspell.wordnet.Synset;
 import edu.smu.tspell.wordnet.SynsetType;
@@ -43,12 +45,12 @@ public class Sample {
         System.setProperty("wordnet.database.dir", "C:/jaws/wn3.1.dict/dict");
         WordNetDatabase database = WordNetDatabase.getFileInstance();
         List<Synset[]> synsets = new ArrayList<Synset[]>();
-        synsets.add(database.getSynsets("man"));
-        synsets.add(database.getSynsets("has"));
-        synsets.add(database.getSynsets("bought"));
-        synsets.add(database.getSynsets("new"));
-        synsets.add(database.getSynsets("red"));
-        synsets.add(database.getSynsets("car"));
+        synsets.add(database.getSynsets("little"));
+//        synsets.add(database.getSynsets("has"));
+//        synsets.add(database.getSynsets("bought"));
+//        synsets.add(database.getSynsets("new"));
+//        synsets.add(database.getSynsets("red"));
+//        synsets.add(database.getSynsets("car"));
 
         System.out.println("ADJ = " + SynsetType.ADJECTIVE);
         System.out.println("ADJ_SAT = " + SynsetType.ADJECTIVE_SATELLITE);

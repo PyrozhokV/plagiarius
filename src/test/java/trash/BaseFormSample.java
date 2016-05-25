@@ -1,3 +1,5 @@
+package trash;
+
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.Annotation;
@@ -65,7 +67,7 @@ public class BaseFormSample {
         System.out.println("Starting Stanford Lemmatizer...");
         String st = " Fulton County Grand Jury said Friday an investigation of Atlanta 's recent primary election produced no evidence that any irregularities took place ";
 
-        String text = "seventeenth, well, prettiest, greater, flies, teeth, Starting, more";
+        String text = "whom";
         BaseFormSample slem = new BaseFormSample();
         System.out.println(slem.lemmatize(text) + "\n");
     }
