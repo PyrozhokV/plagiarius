@@ -176,3 +176,5 @@ maynot
 shallnot
 mustnot
 mustnt
+not
+non

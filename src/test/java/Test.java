@@ -19,7 +19,7 @@ public class Test {
 
     @org.testng.annotations.Test
     public void test() throws IOException {
-        String text = FileMan.readTextFromFile(Data.textFilePath);
+        String text = FileMan.readTextFromFile(Data.warAndPeaceFilePath);
         Analyzer analyzer = new Analyzer();
         Normalizer normalizer = new Normalizer();
         String[] words = normalizer.normalize(text);
@@ -43,7 +43,7 @@ public class Test {
                 max = terms[i].getOriginalTermFrequency();
                 ind = i;
             }
-//            System.out.println(terms[i].getOriginal() + ":" + terms[i].getActual() + ":" + terms[i].getOriginalTermFrequency());
+            System.out.println(terms[i].getOriginal() + ":" + terms[i].getActual() + ":" + terms[i].getOriginalTermFrequency());
         }
         Logger.error(terms[ind].getOriginal() + ":" + terms[ind].getActual() + ":" + terms[ind].getOriginalTermFrequency());
 
