@@ -41,4 +41,9 @@ public class Word {
     public int getOriginalTermFrequency() {
         return originalTermFrequency;
     }
+
+    @Override
+    public String toString() {
+        return this.actual;
+    }
 }

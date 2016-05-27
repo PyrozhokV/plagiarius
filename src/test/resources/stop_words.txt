@@ -89,6 +89,8 @@ plus
 regarding
 furthermore
 nor
+these
+those
 because
 aside
 consequently

@@ -20,7 +20,7 @@ public class Normalizer {
 
     public String[] normalize(String originalText) {
         Logger.error("Original text words count: " + originalText.split("\\s").length);
-        List<String> words = Arrays.asList(originalText.replaceAll("[^a-zA-Z ]", "").toLowerCase().split("\\s+"));
+        List<String> words = Arrays.asList(originalText.replaceAll("[^a-zA-Z \r\n]", "").toLowerCase().split("\\s+"));
         List<String> stopWordsList = Arrays.asList(stopWords);
         List<String> wordsAfterCleaning = new ArrayList<String>();
         for (String word : words) {
