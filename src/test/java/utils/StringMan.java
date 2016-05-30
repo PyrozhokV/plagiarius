@@ -2,9 +2,9 @@ package utils;
 
 import core.Word;
 
-import java.text.Collator;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.zip.CRC32;
 
 /**
  * Created by Pyrozhok on 25.05.2016.
@@ -40,5 +40,11 @@ public class StringMan {
     public static Word[] alphabeticalSort(Word[] words) {
         Collections.sort(Arrays.asList(words));
         return words;
+    }
+
+    public static String getHashCRC32(String input) {
+        CRC32 crc = new CRC32();
+        crc.update(input.getBytes());
+        return Long.toHexString(crc.getValue());
     }
 }
