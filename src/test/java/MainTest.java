@@ -23,12 +23,12 @@ public class MainTest {
             System.out.println(i + ". Word [" + words[i] + "]");
             terms[i] = new Word(words[i]);
             terms[i].setSynonyms(analyzer.getSynonyms(words[i]));
-            terms[i].setActual(StringMan.getFirstFromAlphabeticalSorted(terms[i].getSynonyms()));
+            terms[i].setActual(StringMan.alphabeticalSort(terms[i].getSynonyms())[0]);
             terms[i].setOriginalTermFrequency(analyzer.getWordFrequency(terms[i].getOriginal(), words));
         }
 
         Algorithmizer algorithmizer = new Algorithmizer();
-        Shingle[] shingles = algorithmizer.shinglesAlgorithm(9, terms);
+        Shingle[] shingles = algorithmizer.shinglesAlgorithm(6, terms, 3);
 //        int max = 0;
 //        int ind = 0;
         String[] result = new String[shingles.length];

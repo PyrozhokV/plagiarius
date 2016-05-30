@@ -1,5 +1,7 @@
 package utils;
 
+import core.Word;
+
 import java.text.Collator;
 import java.util.Arrays;
 import java.util.Collections;
@@ -30,8 +32,13 @@ public class StringMan {
         return Arrays.asList(text.replaceAll("\r", "").split("\\s")).contains(word);
     }
 
-    public static String getFirstFromAlphabeticalSorted(String[] words) {
-        Collections.sort(Arrays.asList(words), Collator.getInstance());
-        return words[0];
+    public static String[] alphabeticalSort(String[] words) {
+        Collections.sort(Arrays.asList(words));
+        return words;
+    }
+
+    public static Word[] alphabeticalSort(Word[] words) {
+        Collections.sort(Arrays.asList(words));
+        return words;
     }
 }

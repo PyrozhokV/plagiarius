@@ -3,7 +3,7 @@ package core;
 /**
  * Created by Pyrozhok on 25.05.2016.
  */
-public class Word {
+public class Word implements Comparable<Word> {
 
     private String original;
     private String[] synonyms;
@@ -15,7 +15,7 @@ public class Word {
     }
 
     public void setActual(String actual) {
-        this.actual = actual;
+        this.actual = actual.toLowerCase();
     }
 
     public void setSynonyms(String[] synonyms) {
@@ -45,5 +45,10 @@ public class Word {
     @Override
     public String toString() {
         return this.actual;
+    }
+
+    @Override
+    public int compareTo(Word o) {
+        return this.actual.compareTo(o.actual);
     }
 }
