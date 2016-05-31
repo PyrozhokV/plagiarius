@@ -2,6 +2,8 @@ package core;
 
 import utils.StringMan;
 
+import java.util.Arrays;
+
 import static org.testng.Assert.assertNotEquals;
 import static org.testng.Assert.assertTrue;
 
@@ -31,5 +33,26 @@ public class Algorithmizer {
             shingles[i] = new Shingle(wordsToAdd);
         }
         return shingles;
+    }
+
+    public double getShinglesRatio(Shingle[] source1, Shingle[] source2) {
+        Shingle[] smaller;
+        Shingle[] bigger;
+        if (source1.length <= source2.length) {
+            smaller = source1;
+            bigger = source2;
+        }
+        else {
+            smaller = source2;
+            bigger = source2;
+        }
+
+        int sameCounter = 0;
+        for (int i = 0; i < smaller.length; i++) {
+            if (Arrays.asList(bigger).contains(smaller[i])) {
+                sameCounter++;
+            }
+        }
+        return sameCounter / smaller.length;
     }
 }

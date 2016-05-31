@@ -8,7 +8,7 @@ public class Word implements Comparable<Word> {
     private String original;
     private String[] synonyms;
     private String actual;
-    private int originalTermFrequency;
+    private int originalTF;
 
     public Word(String original) {
         this.original = original;
@@ -22,8 +22,8 @@ public class Word implements Comparable<Word> {
         this.synonyms = synonyms;
     }
 
-    public void setOriginalTermFrequency(int frequency) {
-        this.originalTermFrequency = frequency;
+    public void setOriginalTF(int frequency) {
+        this.originalTF = frequency;
     }
 
     public String getOriginal() {
@@ -38,8 +38,8 @@ public class Word implements Comparable<Word> {
         return actual;
     }
 
-    public int getOriginalTermFrequency() {
-        return originalTermFrequency;
+    public int getOriginalTF() {
+        return originalTF;
     }
 
     @Override

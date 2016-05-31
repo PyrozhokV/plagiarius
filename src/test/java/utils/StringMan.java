@@ -2,6 +2,8 @@ package utils;
 
 import core.Word;
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.zip.CRC32;
@@ -46,5 +48,20 @@ public class StringMan {
         CRC32 crc = new CRC32();
         crc.update(input.getBytes());
         return Long.toHexString(crc.getValue());
+    }
+
+    public static String getHashSHA256(String input) {
+        MessageDigest md = null;
+        try {
+            md = MessageDigest.getInstance("SHA-256");
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        md.update(input.getBytes());
+        StringBuffer result = new StringBuffer();
+        for (byte byt : md.digest()) {
+            result.append(Integer.toString((byt & 0xff) + 0x100, 16).substring(1));
+        }
+        return result.toString();
     }
 }

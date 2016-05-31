@@ -24,33 +24,19 @@ public class MainTest {
             terms[i] = new Word(words[i]);
             terms[i].setSynonyms(analyzer.getSynonyms(words[i]));
             terms[i].setActual(StringMan.alphabeticalSort(terms[i].getSynonyms())[0]);
-            terms[i].setOriginalTermFrequency(analyzer.getWordFrequency(terms[i].getOriginal(), words));
+            terms[i].setOriginalTF(analyzer.getWordFrequency(terms[i].getOriginal(), words));
         }
 
         Algorithmizer algorithmizer = new Algorithmizer();
-        Shingle[] shingles = algorithmizer.shinglesAlgorithm(6, terms, 3);
-//        int max = 0;
-//        int ind = 0;
-        String[] result = new String[shingles.length];
+        Shingle[] shingles = algorithmizer.shinglesAlgorithm(6, terms, 1);
+
+        String[] shinglesValues = new String[shingles.length];
+        String[] shinglesHash = new String[shingles.length];
         for (int i = 0; i < shingles.length; i++) {
-            result[i] = shingles[i].toString();
+            shinglesValues[i] = shingles[i].toString();
+            shinglesHash[i] = shingles[i].getHash();
         }
-//        for (int i = 0; i < result.length; i++) {
-//            result[i] = terms[i].getActual();
-//            if (max < terms[i].getOriginalTermFrequency()) {
-//                max = terms[i].getOriginalTermFrequency();
-//                ind = i;
-//            }
-//            System.out.println(terms[i].getOriginal() + ":" + terms[i].getActual() + ":" + terms[i].getOriginalTermFrequency());
-//        }
-//        Logger.error(terms[ind].getOriginal() + ":" + terms[ind].getActual() + ":" + terms[ind].getOriginalTermFrequency());
-        FileMan.writeToFile(Data.testResultsFilePath, result);
-
-
-
-
-
-
+        FileMan.writeToFile(Data.testResultsFilePath, shinglesValues);
 
     }
 }

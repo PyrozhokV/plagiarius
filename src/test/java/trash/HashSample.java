@@ -10,7 +10,7 @@ public class HashSample {
 
     @Test
     public void test() {
-        System.out.println(StringMan.getHashCRC32("token"));
-        System.out.println(StringMan.getHashCRC32("token"));
+        System.out.println(StringMan.getHashSHA256("token"));
+        System.out.println(StringMan.getHashSHA256("token"));
     }
 }
