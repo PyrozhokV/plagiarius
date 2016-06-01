@@ -1,5 +1,6 @@
 package utils;
 
+import core.Shingle;
 import core.Word;
 
 import java.security.MessageDigest;
@@ -63,5 +64,13 @@ public class StringMan {
             result.append(Integer.toString((byt & 0xff) + 0x100, 16).substring(1));
         }
         return result.toString();
+    }
+
+    public static String[] extractHashes(Shingle[] shingles) {
+        String[] hashes = new String[shingles.length];
+        for (int i = 0; i < shingles.length; i++) {
+            hashes[i] = shingles[i].getHash();
+        }
+        return hashes;
     }
 }

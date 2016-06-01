@@ -13,7 +13,7 @@ import static org.testng.Assert.assertTrue;
 public class Algorithmizer {
 
     public Shingle[] shinglesAlgorithm(int shingleLength, Word[] words, int commonWordsInNeighbourShingles) {
-        assertTrue(shingleLength < words.length, "Shingle length can not be larger than words.length");
+        assertTrue(shingleLength < words.length, "Shingle length can not be larger or equal to words.length");
         assertNotEquals(shingleLength, commonWordsInNeighbourShingles, "Shingle length and common words var can not be equal");
         int shinglesCount = (words.length - shingleLength) / (shingleLength - commonWordsInNeighbourShingles) + 1;
         if ((words.length - shingleLength) % (shingleLength - commonWordsInNeighbourShingles) != 0) {
@@ -48,11 +48,13 @@ public class Algorithmizer {
         }
 
         int sameCounter = 0;
+        String[] biggerHashes = StringMan.extractHashes(bigger);
+
         for (int i = 0; i < smaller.length; i++) {
-            if (Arrays.asList(bigger).contains(smaller[i])) {
+            if (Arrays.asList(biggerHashes).contains(smaller[i].getHash())) {
                 sameCounter++;
             }
         }
-        return sameCounter / smaller.length;
+        return (double)sameCounter / smaller.length;
     }
 }
