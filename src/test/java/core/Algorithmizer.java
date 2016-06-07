@@ -55,6 +55,6 @@ public class Algorithmizer {
                 sameCounter++;
             }
         }
-        return (double)sameCounter / smaller.length;
+        return (double) sameCounter / smaller.length;
     }
 }

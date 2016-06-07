@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>core.Word</OriginalElement>
+  <nodes>
+    <node x="-890.1944444444445" y="-166.58333333333314">MainTest</node>
+    <node x="-1602.9999999999998" y="-670.7499999999999">utils.StringMan</node>
+    <node x="" y="">core.Lemmatizer</node>
+    <node x="-1308.4999999999995" y="-415.72222222222223">core.Word</node>
+    <node x="-1249.3333333333333" y="-671.4999999999998">utils.TimeMan</node>
+    <node x="-1605.7499999999998" y="-432.4166666666665">core.Data</node>
+    <node x="-908.6944444444443" y="-664.6944444444442">core.Shingle</node>
+    <node x="-599.3730158730159" y="-129.92063492063482">core.Normalizer</node>
+    <node x="-911.3611111111112" y="-356.722222222222">core.Algorithmizer</node>
+    <node x="-1605.4444444444441" y="-130.4444444444444">utils.FileMan</node>
+    <node x="-632.9880952380954" y="-267.1666666666663">core.Analyzer</node>
+    <node x="-1606.7777777777774" y="-260.4444444444443">utils.Logger</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="MainTest" target="core.Normalizer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="core.Algorithmizer" target="core.Word">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="core.Analyzer" target="core.Lemmatizer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="core.Analyzer" target="core.Normalizer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="MainTest" target="core.Word">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="core.Algorithmizer" target="core.Shingle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="MainTest" target="core.Algorithmizer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="core.Shingle" target="core.Word">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="MainTest" target="core.Analyzer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8999999999999996" x="-991.7777777777775" y="-337.6666666666665" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

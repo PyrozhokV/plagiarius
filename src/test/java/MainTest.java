@@ -16,8 +16,10 @@ public class MainTest {
 
     @Test
     public void test() throws IOException {
-        Shingle[] original = getShingles(Data.originalTextFilePath);
-        Shingle[] plagiarism = getShingles(Data.plagiarismTextFilePath);
+        Shingle[] original = getShingles("C:\\Users\\Pyrozhok\\IdeaProjects\\plagiarius\\plagiarius\\src\\test\\resources\\test\\apple1.txt");
+        Shingle[] plagiarism = getShingles("C:\\Users\\Pyrozhok\\IdeaProjects\\plagiarius\\plagiarius\\src\\test\\resources\\test\\apple2.txt");
+//        Shingle[] original = getShingles(Data.originalTextFilePath);
+//        Shingle[] plagiarism = getShingles(Data.plagiarismTextFilePath);
 
         Algorithmizer algorithmizer = new Algorithmizer();
         Logger.error("Plagiarism Ratio = " + algorithmizer.getShinglesRatio(original, plagiarism));
@@ -46,9 +48,11 @@ public class MainTest {
         for (int i = 0; i < terms.length; i++) {
 //            System.out.println(i + ". Word [" + words[i] + "]");
             terms[i] = new Word(words[i]);
-            terms[i].setSynonyms(analyzer.getSynonyms(words[i]));
-            terms[i].setActual(StringMan.alphabeticalSort(terms[i].getSynonyms())[0]);
-            terms[i].setOriginalTF(analyzer.getWordFrequency(terms[i].getOriginal(), words));
+//            terms[i].setSynonyms(analyzer.getSynonyms(words[i]));
+//            terms[i].setActual(StringMan.alphabeticalSort(terms[i].getSynonyms())[0]);
+//            terms[i].setOriginalTF(analyzer.getWordFrequency(terms[i].getOriginal(), words));
+
+            terms[i].setActual(terms[i].getOriginal());
         }
         Algorithmizer algorithmizer = new Algorithmizer();
         return algorithmizer.shinglesAlgorithm(shingleLength, terms, commonWords);

@@ -1,0 +1,32 @@
+WASHINGTON — Kids gleefully snapped up virtual pet food, gems, or other items while playing games on their mobile devices, while the bills from Apple Inc. mounted, often without parents’ knowledge. Now, the tech giant has agreed to refund the money.
+
+Following tens of thousands of consumer complaints, the Federal Trade Commission said Wednesday that Apple will pay at least $32.5 million to settle a federal case involving those in-app purchases. Apple also must change its billing practices to make it more obvious that an actual purchase is taking place in a game or app.
+
+Subscribe Now
+Just how could a kid buy these things without mom or dad’s knowledge and run up bills into the hundreds of dollars or more?
+
+A game-player wants to advance to a new level or buy coins, a chest of gems, or treats for a virtual pet. It takes a click, and then the app asks for a password. The child turns to a parent, who punches it in.
+
+But, according to the FTC complaint, Apple did not always make it clear that they were buying something. Parents also were not told that entering the password started a 15-minute clock during which kids could make unlimited purchases without further action by an adult, the agency said.
+
+A single purchase generally can range from 99 cents to $99.
+
+One parent told the FTC that her daughter had spent $2,600 in “Tap Pet Hotel,’’ in which children can build their own pet lodging. The game is free to download and play, but it takes in-app purchases for treats and coins for the pets.
+
+Other consumers reported unauthorized purchases by children totaling more than $500 in the apps ‘‘Dragon Story’’ and ‘‘Tiny Zoo Friends.’’
+
+‘‘You cannot charge consumers for purchases they did not authorize,’’ said Edith Ramirez, the commission chairwoman.
+
+Apple will have until March 31 to come up with a billing system that ensures it obtains consumers’ informed consent before billing them for in-app purchases. The settlement involves all apps in which minors made unauthorized purchases.
+
+It addresses the same issue raised in a class-action lawsuit that Apple resolved last year. In that case, Apple agreed to contact 28 million of its app customers to offer them a $5 store credit or a $30 cash refund if their children had spent at least that much money without parental consent. The deadline for filing a claim was Monday.
+
+That settlement resulted in about 37,000 claims, according to a memo that Apple chief executive Tim Cook sent to company employees Wednesday to discuss the FTC’s rebuke.
+
+‘‘It doesn’t feel right for the FTC to sue over a case that had already been settled,’’ Cook wrote. ‘‘To us, it smacked of double jeopardy.’’
+
+Cook said Apple relented to the FTC because the consent decree ‘‘does not require us to do anything we weren’t already going to do, so we decided to accept it rather than take on a long and distracting legal fight.’’
+
+Apple has taken a series of steps in the past few years to ensure its app store is a ‘‘safe place for customers of all ages.’’
+
+Apple’s app store is a gold mine for software developers and Apple, which charges a 30 percent commission on transactions. Apple said customers spent more than $10 billion on app transactions last year.

@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class Normalizer {
 
-    private String[] stopWords = FileMan.readTextFromFile(Data.stopWordsFilePath).split("\\s");;
+    private String[] stopWords = FileMan.readTextFromFile(Data.stopWordsFilePath).split("\\s");
 
     public String[] getStopWords() {
         return stopWords;

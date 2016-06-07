@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>core.Word</OriginalElement>
+  <nodes>
+    <node x="-285.2631578947369" y="49.47368421052633">core.Word</node>
+    <node x="208.36842105263156" y="90.05263157894734">core.Shingle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="core.Shingle" target="core.Word">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1" x="170.09090909090907" y="282.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

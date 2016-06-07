@@ -1,0 +1,39 @@
+The federal government on Wednesday said Apple has agreed to pay at least $32.5 million in refunds to parents who didn’t authorize hefty purchases racked up by their children on their iPhones and iPads.
+
+The Federal Trade Commission’s settlement with Apple is the first punishment handed to a major tech company over the handling of children’s apps. It comes amid growing concern that as children clamor to use mobile devices, companies are doing little to protect their privacy or provide parents with the tools to supervise online behavior.
+
+Apple drew the attention of FTC investigators nearly three years ago after a storm of consumer complaints from parents who were surprised by charges on their credit cards when their children used games such as Tap Pet Hotel and Smurf’s Village. These parents complained to regulators and joined a separate class-action lawsuit against Apple that claimed the company had approved games in its iTunes store that enticed children to buy virtual coins or “smurfberries” for real money — as much as $500 per item — without making sure the games had safeguards.
+
+The FTC said Apple unfairly deceived consumers by allowing unlimited in-app purchases for a 15-minute period without telling users of the policy. Normally, any charges on Apple’s iOS operating system require users to enter a password to prevent accidental or unauthorized purchases.
+
+Some parents reported that their young children had racked up thousands of dollars in charges.
+“This settlement is a victory for consumers harmed by Apple’s unfair billing and a signal to the business community,” said FTC Chairwoman Edith Ramirez. “You cannot charge consumers for charges they did not authorize.”
+
+Under the settlement, Apple must refund all unauthorized payments to customers. Those refunds should total at least $32.5 million but could be much more, according to the FTC. If Apple’s payments don’t reach $32.5 million, the FTC will collect the difference.
+
+Apple said it already has addressed many of the FTC’s concerns. Soon after reports of consumer complaints, lawmakers called for an investigation. In March 2011, Apple scrapped the 15-minute window of unlimited charges. Last June, the company reached a class-action settlement with users, offering credits or refunds for unintended charges by children.
+
+“Today’s agreement with the FTC extends our existing refund program for in-app purchases which may have been made without a parent’s permission,” said Steve Dowling, a spokesman for Apple.
+
+Apple said it has sent notices to more than 23 million iTunes account holders who may have been affected by unauthorized in-app purchases and has received 37,000 claims for full refunds. The company declined to comment on how many consumers have sought refunds from the class-action suit and how much money has been refunded. Apple requires users to prove that they were charged for in-app purchases made by a minor and did not give their account password to their children.
+
+Chief executive Tim Cook criticized the FTC’s action in an e-mail to employees Wednesday, saying it “doesn’t seem right” for the agency to sue Apple over a matter that was already settled in court.
+
+“To us, it smacked of double jeopardy,” Cook wrote. “However, the consent decree the FTC proposed does not require us to do anything we weren’t already going to do, so we decided to accept it rather than take on a long and distracting legal fight.”
+
+The FTC said the order goes beyond the class-action settlement.
+
+Consumers who didn’t get full refunds from the class-action suit can file again with the FTC, and the barrier of proof for refunds will be lower, the agency said.
+
+“We believe our settlement provides more robust relief,” Ramirez said.
+
+The FTC settlement is directed only at Apple, but analysts say the problem of unfair billing practices appears broader and that Google’s popular Android operating system makes it even easier for children to spend money while playing on apps.
+“So far the attention has been on Apple, but there are big questions surrounding Google and the way they handle in-app purchases,” said Carl Howe, a research analyst at the Yankee Group. “From what I can see, Apple has made many changes and now does a better job with children’s protections.” He said that on Android phones, a user isn’t always asked for a password when making an in-app purchase.
+
+The settlement passed on a 3 to 1 vote, with Republican commissioner Joshua D. Wright opposing it. In a dissenting opinion, Wright said the benefits that Apple’s platform provides to consumers outweigh the injury in this case and that consumers could have, in some part, avoided these issues by paying closer attention to their own privacy settings.
+
+Consumer advocates lauded the FTC action, saying it sends a signal to other firms to better protect children online.
+
+Children are particularly vulnerable online, they say. A young child may not fully grasp that online coins being offered for purchase in an app require real money.
+
+“Closing this loophole means children won’t be opening their parents’ wallets because they don’t comprehend the consequences of in-app purchases,” said Sen. Edward J. Markey (D-Mass.). “As the use of mobile apps continues to escalate, I encourage the commission to continue to provide information to all consumers about the marketing and delivery of these applications, especially those targeted to children.”
