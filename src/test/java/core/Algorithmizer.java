@@ -1,5 +1,6 @@
 package core;
 
+import utils.Logger;
 import utils.StringMan;
 
 import java.util.Arrays;
@@ -55,6 +56,15 @@ public class Algorithmizer {
                 sameCounter++;
             }
         }
-        return (double) sameCounter / smaller.length;
+
+        double r = (double) sameCounter * 2 / (smaller.length + bigger.length);
+        double c = (double) sameCounter / smaller.length;
+        double d = 1.0 - r;
+        Logger.info("========================================================");
+        Logger.error("Similarity (r) = " + r);
+        Logger.error("Smaller in bigger (c) = " + c);
+        Logger.error("Distance (d) = " + d);
+
+        return c;
     }
 }

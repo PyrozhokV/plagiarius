@@ -14,7 +14,7 @@ import static org.testng.Assert.assertTrue;
 public class FileMan {
 
     public static boolean fileExists(String filePath) {
-        Logger.info("Check does file exist [" + filePath + "]");
+//        Logger.info("Check does file exist [" + filePath + "]");
         File file = new File(filePath);
         return file.exists() && !file.isDirectory();
     }
